@@ -6,6 +6,9 @@
   "repository": "https://github.com/Guia-do-Mochileiro-Dev/articles/plopfile-how-to-use",
   "author": "Letícia Alexandre",
   "license": "MIT",
+  "scripts": {
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+  },
   "devDependencies": {
     "plop": "^3.0.5"
   }
