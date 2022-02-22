@@ -114,4 +114,12 @@ actions: [
 ];
 ```
 
+Depois no `package.json` adicione na lista de scripts o script de generate com o caminho do seu plopfile.js
+
+```jsx
+"scripts": {
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+  },
+```
+
 Assim todas as vezes que você rodar o comando yarn generate, ele ira criar os dois arquivos com o nome passado no comando e com a estrutura feita no template.
