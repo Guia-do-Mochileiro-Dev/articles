@@ -1,0 +1,12 @@
+{
+  "name": "plopfile-how-to-use",
+  "version": "1.0.0",
+  "description": "Plopfile, what is and how to automate file creation",
+  "main": "index.js",
+  "repository": "https://github.com/Guia-do-Mochileiro-Dev/articles/plopfile-how-to-use",
+  "author": "Letícia Alexandre",
+  "license": "MIT",
+  "devDependencies": {
+    "plop": "^3.0.5"
+  }
+}
